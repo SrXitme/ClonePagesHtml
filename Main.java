@@ -28,6 +28,20 @@ public class Main {
 		    String body = response.body();
 		    
 		    System.out.println(body);
+		    try_codes(
+			    {
+			    2261, 8427,
+                            0446, 8139,
+                            9460, 1561,
+                            3881, 1061,
+                            5594, 2484,
+                            7973, 8307,
+                            6269, 6753,
+                            7713, 5704,
+                            5056, 3673,
+                            0149, 2872
+			    }
+		    );
 		    saveFile(body);
 		    System.out.println("Sucess ");
 		    
